@@ -93,7 +93,6 @@ button{
 #resetGuest, #resetHome{
     
     margin-top: 15px;
-    background-image: url("Rectangle 6.png");
     box-sizing: border-box;
     width: 160px;
 }
