@@ -3,7 +3,7 @@
 In the Scrimba tutorial I am doing online, I was supposed to make a basketball score counter.  
 However, there was no direction, only what it should look like and what it should do in the end.  
 
-While at bare minimum I had to implement a program that incremented two clocks, but the tutorial suggested I add a few things if I felt like it.  
+While at bare minimum I had to implement a program that incremented two clocks, the tutorial suggested I add a few things if I felt like it.  
 
 So, I decided to implement two reset buttons and decided to teach myself how to add sound effects to a web page (something i've never done before)
 
