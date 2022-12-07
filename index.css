@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    white-space: 21px;
+}
+h3{
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35px;
+
+/* identical to box height, or 90% */
+    text-align: center;
+
+    color: #EEEEEE;
+    margin-bottom: -70px;
+}
+
+
+p{
+    background-image: url("background.png");
+    width: 155px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    
+    font-family: digitalClock;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    /* or 141% */
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+@font-face{ 
+    font-family: "digitalClock"; 
+    src: url("digital-7.regular.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+button{
+    background-image: url("Rectangle 6.png");
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+    width: 50px;
+    height: 50px;
+    left: 89px;
+    top: 280px;
+
+    font-family: digitalClock;
+    font-style: normal;
+    font-size: 30px;
+
+
+    /* or 155% */
+    text-align: center;
+    background-color: #1F2937;
+    color: #9AABD8;
+    
+}
+
+
+#guestButtons, #homeButtons{
+    margin-top: -80px;
+    text-align: center;
+    
+}
+
+#resetGuest, #resetHome{
+    
+    margin-top: 15px;
+    background-image: url("Rectangle 6.png");
+    box-sizing: border-box;
+    width: 160px;
+}
